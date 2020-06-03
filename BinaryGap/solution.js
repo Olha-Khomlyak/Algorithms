@@ -9,7 +9,6 @@ function solution(N){
           currentGap++;
     
         } else if(arr[i]==='1'){
-                //console.log('--------')
           if(currentGap>maxGap){
           maxGap=currentGap;
           currentGap = 0;
